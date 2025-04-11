@@ -1,0 +1,155 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  .delivery-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .address-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .address {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .address.selected {
+    border: 2px solid #008000; }
+  
+  button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  
+  .add-address-btn {
+    margin-top: 15px;
+    background-color: #4CAF50;
+  }
+  
+  .selected-tag {
+    font-weight: bold;
+    color: green;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: none;
+    font-size: 1rem;
+  }
+  
+  textarea::placeholder {
+    color: #aaa;
+  }
+  
+  
+  .cart-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item .item-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .bill-details {
+    margin-top: 15px;
+  }
+  
+  .bill-details p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .bill-details .total-amount {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff9800;
+  }
+  
+  
+  .order-now-btn {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-now-btn:hover {
+    background-color: #006400;
+  }
+  
+  .update-address, .add-address {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  

@@ -1,0 +1,74 @@
+
+.offers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.offer-card {
+  width: auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.offer-image {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-bottom: 2px solid white;
+}
+
+.offer-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.orders-list {
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.order-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.order-card li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.order-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+
+.orders-list p {
+  font-size: 1.2rem;
+  color: #666;
+}

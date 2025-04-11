@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  background-color: #f4f1de;
+}
+
+.logo-container {
+  
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  text-decoration: none; 
+}
+
+.logo {
+  border-radius: 25px;
+  width: 150px;
+}
+
+.search-bar {
+  padding: 10px;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.location-text {
+  margin-right: 200px;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-link {
+  text-decoration: none; 
+}
+
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1); 
+}
+.auth-buttons {
+  margin-left: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.auth-link {
+  text-decoration: none;
+}
+
+.auth-btn {
+  background-color: #2a9d8f; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #264653; 
+}
