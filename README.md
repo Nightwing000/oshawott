@@ -7,4 +7,4 @@
 
 
 run npm install then npm start on both backend and food-app to run the application. Local Backend outputs easy to see on MongoDBcompass
-search page and menu page -@jhalak-n
+search page and menu page -github.com/jhalak-n
